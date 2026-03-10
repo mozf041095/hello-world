@@ -1,0 +1,7 @@
+# 使用 kramdown 引擎
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  # 关键设置：禁用单词内下划线转义
+  no_intra_emphasis: true
